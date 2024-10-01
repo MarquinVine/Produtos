@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos</title>
+    <link rel="stylesheet" href="prod.css">
+</head>
+<body>
+    <nav class="footer">
+        <ul class="itens">
+            <li>Produtos</li>
+            <li><a href="index.html">Voltar</a></li>
+        </ul>
+    </nav>
+
+    <section class="produto">
+       
+
+        <div class="detalhes-produto">
+            <h2>Katana Dupla</h2>
+            <p class="descrição">Katana muito utilizada para decoração mais tbm usada para treino😎</p>
+            <p class="preço">R$500,50</p>
+            <div class="imagens-produto">
+                <img src="/img/Design sem nome (6).png" alt="Produto principal" class="img-principal" id="img principal">
+                
+                <div class="miniaturas">
+                    <img src="/img/Design sem nome (7).png" alt="miniatura" class="miniatura" data-imagens="/img/Design sem nome (7).png">
+                    <img src="/img/Design sem nome (8).png" alt="miniatura 2" class="miniatura" data-imagens="/img/Design sem nome (8).png">
+                </div>
+            </div>
+            <form class="opcoes">
+                <label for="tamanho">Tamanho</label>
+                <select id="tamanho">
+                    <option>20cm</option>
+                    <option>40cm</option>
+                    <option>60cm</option>
+                </select>
+
+                <label for="cor">Cor</label>
+                    <select id="cor">
+                        <option>Vermelho</option>
+                        <option>Azul</option>
+                        <option>Roxo</option>
+                    </select>
+                    <button type="submit">Comprar</button>
+            </form>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

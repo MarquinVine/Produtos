@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+}
+.conteiner{
+    width: 100%;
+    max-width: 400px;
+    background: rgb(255, 0, 0);
+    padding: 30px;
+    margin: 40px auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2{
+    text-align: center;
+    color: black;
+}
+label{
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.footer{
+    background-color: red;
+    padding: 20px;
+}
+.itens{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    margin: 0 15px;
+}
+nav ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 25px;
+    transition: color 0.3s;
+}
+nav ul li a:hover{
+    color: rgb(255, 255, 255);
+}
